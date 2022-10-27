@@ -17,9 +17,17 @@ body {
 
 .submit-btn {
   background-color: #0A2136;
-  color: white;
+  color: #fff;
   padding: 10px 25px;
   text-decoration: none;
+  form input[type="submit"] {
+  height: 50px;
+  margin-top: 30px;
+}
+
+form input[type="submit"]:hover {
+    background: #2c52ed;
+}
 }
 
 .submit-btn:hover {
@@ -163,9 +171,4 @@ form .pass-txt {
 
 .wrapper a:hover {
     text-decoration: underline;
-}
-
-form input[type="submit"] {
-    height: 40px;
-    margin-top: 40px;
 }
