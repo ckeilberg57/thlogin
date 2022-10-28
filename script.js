@@ -42,9 +42,9 @@ form.onsubmit = (e) => {
         }
     }
 
-    if (!eField.classList.contains("error") && !pField.classList.contains("error")) {
-        window.location.href = form.getAttribute("action");
+    if  (!eField.classList.contains("valid") && !pfield.classList.contains("valid")) {
+        location.href = "https://docs.pexip.com";
     }
-    else {location.href = "https://docs.pexip.com";
+    else (!eField.classList.contains("error") && !pField.classList.contains("error")) {
+        window.location.href = form.getAttribute("action");
          }
-}
