@@ -42,7 +42,7 @@ form.onsubmit = (e) => {
             pField.classList.remove("error");
             pField.classList.add("valid");
         }
-
+    }
     if  (eField.classList.contains("valid") && pField.classList.contains("valid")) {
         console.log("valid email");
         location.href = "https://docs.pexip.com";
@@ -51,3 +51,4 @@ form.onsubmit = (e) => {
         console.log("invalid");
         window.location.href = form.getAttribute("action");
          }
+}
