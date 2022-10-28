@@ -32,7 +32,7 @@ body {
     background: #0A2136;
     border-radius: 5px;
     text-align: center;
-    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.3);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .wrapper header {
@@ -168,7 +168,7 @@ form input[type="submit"] {
     border: none;
     background: #FFFFFF;
     cursor: pointer;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
     transition: all 0.3s ease;
 }
 
