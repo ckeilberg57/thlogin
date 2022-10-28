@@ -1,8 +1,8 @@
 const form = document.querySelector("form");
-eField = form.querySelector(".email"),
-    eInput = eField.querySelector("input"),
-    pField = form.querySelector(".password"),
-    pInput = pField.querySelector("input");
+eField = form.querySelector(".email");
+eInput = eField.querySelector("input");
+pField = form.querySelector(".password");
+pInput = pField.querySelector("input");
 
 form.onsubmit = (e) => {
     e.preventDefault();
@@ -51,3 +51,4 @@ form.onsubmit = (e) => {
         console.log("invalid");
         window.location.href = form.getAttribute("action");
          }
+}
