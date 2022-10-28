@@ -15,24 +15,6 @@ body {
     background: #000000;
 }
 
-.submit-btn {
-  background-color: #0A2136;
-  color: #fff;
-  padding: 10px 25px;
-  text-decoration: none;
-  form input[type="submit"] {
-  height: 150px;
-  margin-top: 30px;
-}
-
-form input[type="submit"]:hover {
-    background: #2c52ed;
-}
-}
-
-.submit-btn:hover {
-  background-color: #000000;
-}
 ::selection {
     color: #fff;
     background: #53f0e3;
@@ -171,4 +153,19 @@ form .pass-txt {
 
 .wrapper a:hover {
     text-decoration: underline;
+}
+form input[type="submit"] {
+    height: 50px;
+    margin-top: 30px;
+    color: #fff;
+    padding: 0;
+    border: none;
+    background: #5372F0;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background: #2c52ed;
 }
