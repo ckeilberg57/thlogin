@@ -19,6 +19,7 @@ form.onsubmit = (e) => {
     pInput.onkeyup = () => { checkPass(); }
 
     function checkEmail() {
+        console.log("inside check email");
         let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
         if (!eInput.value.match(pattern)) {
             eField.classList.add("error");
@@ -33,6 +34,7 @@ form.onsubmit = (e) => {
     }
 
     function checkPass() {
+        console.log("inside check password");
         if (pInput.value == "") {
             pField.classList.add("error");
             pField.classList.remove("valid");
@@ -41,9 +43,11 @@ form.onsubmit = (e) => {
             pField.classList.add("valid");
         }
 
-    if  (eField.classList.contains("valid") && pfield.classList.contains("valid")) {
+    if  (eField.classList.contains("valid") && pField.classList.contains("valid")) {
+        console.log("valid email");
         location.href = "https://docs.pexip.com";
     }
     else (eField.classList.contains("error") && pField.classList.contains("error")) {
+        console.log("invalid");
         window.location.href = form.getAttribute("action");
          }
