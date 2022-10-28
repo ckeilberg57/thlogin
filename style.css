@@ -22,14 +22,14 @@ body {
 }
 
 ::selection {
-    color: #fff;
+    color: #000000;
     background: #53f0e3;
 }
 
 .wrapper {
     width: 380px;
     padding: 40px 30px 50px 30px;
-    background: #000000;
+    background: #fff;
     border-radius: 5px;
     text-align: center;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
