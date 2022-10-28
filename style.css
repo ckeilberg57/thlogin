@@ -29,7 +29,7 @@ body {
 .wrapper {
     width: 380px;
     padding: 40px 30px 50px 30px;
-    background: #0A2136;
+    background: #fff;
     border-radius: 5px;
     text-align: center;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
@@ -168,7 +168,7 @@ form input[type="submit"] {
     border: none;
     background: #FFFFFF;
     cursor: pointer;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
