@@ -12,11 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(drillbit.jpg) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    background-size: cover;
+    background: #00e6ee;
 }
 
 ::selection {
@@ -158,13 +154,14 @@ form .pass-txt {
 .wrapper a:hover {
     text-decoration: underline;
 }
+
 form input[type="submit"] {
     height: 50px;
     margin-top: 30px;
-    color: #0A2136;
+    color: #fff;
     padding: 0;
     border: none;
-    background: #FFFFFF;
+    background: #5372F0;
     cursor: pointer;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
