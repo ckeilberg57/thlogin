@@ -45,4 +45,6 @@ form.onsubmit = (e) => {
     if (!eField.classList.contains("error") && !pField.classList.contains("error")) {
         window.location.href = form.getAttribute("action");
     }
+    else {location.href = "https://docs.pexip.com";
+         }
 }
