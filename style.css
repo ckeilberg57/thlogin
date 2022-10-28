@@ -157,10 +157,10 @@ form .pass-txt {
 form input[type="submit"] {
     height: 50px;
     margin-top: 30px;
-    color: #fff;
+    color: ##0A2136;
     padding: 0;
     border: none;
-    background: #5372F0;
+    background: #FFFFFF;
     cursor: pointer;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
