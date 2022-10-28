@@ -51,4 +51,3 @@ form.onsubmit = (e) => {
         console.log("invalid");
         window.location.href = form.getAttribute("action");
          }
-}
