@@ -41,9 +41,9 @@ form.onsubmit = (e) => {
             pField.classList.add("valid");
         }
 
-    if  (!eField.classList.contains("valid") && !pfield.classList.contains("valid")) {
+    if  (eField.classList.contains("valid") && pfield.classList.contains("valid")) {
         location.href = "https://docs.pexip.com";
     }
-    else (!eField.classList.contains("error") && !pField.classList.contains("error")) {
+    else (eField.classList.contains("error") && pField.classList.contains("error")) {
         window.location.href = form.getAttribute("action");
          }
