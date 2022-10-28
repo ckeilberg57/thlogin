@@ -40,7 +40,6 @@ form.onsubmit = (e) => {
             pField.classList.remove("error");
             pField.classList.add("valid");
         }
-    }
 
     if  (!eField.classList.contains("valid") && !pfield.classList.contains("valid")) {
         location.href = "https://docs.pexip.com";
