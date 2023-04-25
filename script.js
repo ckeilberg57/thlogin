@@ -45,7 +45,7 @@ form.onsubmit = (e) => {
     }
     if  (eField.classList.contains("valid") && pField.classList.contains("valid")) {
         console.log("valid email");
-        location.href = "https://ckeilberg57.github.io/telehealth/";
+        location.href = "https://ckeilberg57.github.io/ManuMap/";
     } else if (eField.classList.contains("error") && pField.classList.contains("error")) {
         console.log("invalid");
         window.location.href = form.getAttribute("action");
