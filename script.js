@@ -45,7 +45,7 @@ form.onsubmit = (e) => {
     }
     if  (eField.classList.contains("valid") && pField.classList.contains("valid")) {
         console.log("valid email");
-        location.href = "https://ckeilberg57.github.io/epphonebook2/";
+        location.href = "https://ckeilberg57.github.io/epdirectory2/";
     } else if (eField.classList.contains("error") && pField.classList.contains("error")) {
         console.log("invalid");
         window.location.href = form.getAttribute("action");
